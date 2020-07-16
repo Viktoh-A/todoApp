@@ -21,8 +21,7 @@
     }
 // Function to Mark-out Finished Task
     const done = (e) => {
-       event.srcElement.parentElement.style.textDecoration = "line-through red";
-    }
+       event.srcElement.parentElement.classList.toggle("striker")  }
 
 // Event to Add Item to List
     button.addEventListener("click",(g)=>{
